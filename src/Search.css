@@ -1,0 +1,71 @@
+.Topbar{
+    position: fixed;
+    margin-top: 1vw;
+    background-color: white;
+    z-index: 10;
+    width: 100vw;
+    height: 5vw;
+}
+
+.TopbarControl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    width: 80vw;
+    height: 5vw;
+}
+
+.logo{
+    position: relative;
+    width: 5vw;
+    height: 4vw;
+    transform: translate(0%,20%);
+    cursor: pointer;
+}
+
+.Serachbar{
+    display: flex;
+    position: relative;
+    width: fit-content;
+    transform: translate(0,15%);
+
+}
+
+.Serachtext{
+    width: 40vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    background-color: gainsboro;
+    border: none;
+    
+}
+
+.serach{
+    position: relative;
+    min-width: fit-content;
+    transform: translate(0%,-1%);
+    width: 1.2vw;
+    height: 1.1vw;
+    background-color: orange;
+    color: white;
+    padding: 1.05vw;
+    margin: 0vw;
+    cursor: pointer;
+}
+
+.cart{
+    position: relative;
+    transform: translate(10%,10%);
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+.newuser{
+    position: relative;
+    transform: translate(0%,17%);
+    width: 5vw;
+    height: 4vw;
+    cursor: pointer;
+}
